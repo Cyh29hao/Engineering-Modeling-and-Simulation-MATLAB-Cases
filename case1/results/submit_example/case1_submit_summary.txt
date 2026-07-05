@@ -1,0 +1,44 @@
+Case1 submit summary
+
+1. Profile
+- profile: submit
+- point-count range: [4, 12]
+- restarts: 1
+- islands: 1
+- population per island: 20
+- max generations: 5
+
+2. Dataset
+- train samples: 2000
+- testA samples: 600
+- grid points: 90
+
+3. Best-by-count archive
+- k = 6, train = 581.759, testA = 582.295, gap = 0.536, T = [-19, -2, 16, 33, 51, 68]
+- k = 7, train = 524.112, testA = 524.875, gap = 0.763, T = [-17, -4, 8, 26, 36, 54, 68]
+- k = 8, train = 662.180, testA = 661.192, gap = 0.988, T = [-17, -9, 10, 25, 29, 39, 57, 68]
+
+4. Final best scheme
+- best point count: 7
+- selected indices: [4, 17, 29, 47, 57, 75, 89]
+- selected temperatures: [-17, -4, 8, 26, 36, 54, 68]
+- C_train: 524.112
+- C_testA: 524.875
+- gap: 0.763
+- train measurement cost: 490.000
+- train error cost: 34.112
+- train mean abs error: 0.2269
+- testA mean abs error: 0.2279
+- train max abs error: 1.4416
+- testA max abs error: 1.3497
+- train total count(|err|>2.0): 0
+- testA total count(|err|>2.0): 0
+
+5. Search outputs
+- count_archive_results.csv
+- best_scheme_points.csv
+- best_scheme_metrics.csv
+- search_history.csv
+- count_cost_comparison.png
+- search_history.png
+- ga_trend_min_mean.png

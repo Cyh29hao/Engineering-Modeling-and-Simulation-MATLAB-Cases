@@ -1,0 +1,34 @@
+Case 2 sonar reliability summary
+sample_size=100000
+seed=20260519
+k=6
+w_hours=25000
+life_cap_hours=250000
+mean_life_A_hours=55000
+mean_life_B_hours=220000
+best_R_n=9
+best_R_25000=0.785350
+best_R_CI95=[0.782805, 0.787895]
+best_R_A_theory_25000=0.789752
+best_MTTF_n=10
+best_MTTF_hours=60304.81
+best_MTTF_CI95_hours=[60011.25, 60598.36]
+R_at_best_MTTF=0.776180
+revival_observed_given_failure_at_best_R=0.063268
+revival_candidate_given_failure_at_best_R=0.077051
+mean_revival_delay_at_best_R_hours=19237.46
+max_revival_observed_given_failure_n=7
+max_revival_observed_given_failure=0.073063
+elapsed_seconds=37.35
+
+Interpretation:
+The Monte Carlo reliability R(25000) is maximized at n=9.
+The Monte Carlo MTTF point estimate is maximized at n=10.
+The theoretical availability A(25000) is used only as an instantaneous-state approximation.
+The revival diagnostic continues each path after first failure and records whether a later state is workable again.
+Because revival after a first failure is possible, A(25000) can be higher than R(25000).
+
+Output files:
+csv=case2/results/case2_submit_results.csv
+reliability_plot=case2/figures/case2_submit_reliability.png
+mttf_plot=case2/figures/case2_submit_mttf.png

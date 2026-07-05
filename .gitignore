@@ -1,0 +1,9 @@
+*.asv
+*.fig
+*.mat
+.DS_Store
+.omx/
+
+case1/code/results/
+case2/results/*smoke*
+case2/figures/*smoke*

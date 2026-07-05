@@ -1,0 +1,10 @@
+metric,train,testA
+mean_cost,524.1125,524.875
+mean_measurement_cost,490,490
+mean_error_cost,34.1125,34.875
+mean_abs_error,0.226860526796698,0.227875015399658
+max_abs_error,1.44162933684822,1.34971156023366
+avg_count_over_0p4,14.4685,14.655
+avg_count_over_0p8,0.3785,0.405
+avg_count_over_1p2,0.017,0.02
+total_count_over_2p0,0,0
